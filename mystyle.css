@@ -1,0 +1,42 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: red;
+  margin-left: 20px;
+}
+div{
+background-color:green;
+color:white;
+padding:25px;
+text-align:center;
+}
+div:hover {
+background-color:blue;
+}
+
+
+div:hover p{
+display:block;
+}
+
+
+p::first-letter{
+color:#ff0000;
+font-size:xx-large;
+}
+p::first-line {
+color:#0000ff;
+font-variant:small-caps;
+}
+h1:: before {
+content:url(smiley.gif);
+}
+h1:: after {
+content:url(smily.gif);
+}
+::selection {
+color :red ;
+background:yellow;
+}
